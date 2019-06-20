@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% load static %}
-    <link rel="icon" href="assets/img/logo_r_resumme.png" type="image/x-icon" />
+    <link rel="icon" href="{% static 'accounts/assets/img/logo.png' %}" type="image/x-icon" />
     <title>Log In</title>
     <script src="{% static 'accounts/assets/js/particle.js' %}"></script>
     <script src="{% static 'accounts/assets/js/main.js' %}"></script>
@@ -18,7 +18,7 @@
       <div class="login column is-4 ">
         <section class="section">
           <div class="has-text-centered">
-              <img class="login-logo" src="assets/img/logo_r_resumme.png">
+              <img class="login-logo" src="{% static 'accounts/assets/img/logo.png' %}">
           </div>
 
           <div class="field">

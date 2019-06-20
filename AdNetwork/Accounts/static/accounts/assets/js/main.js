@@ -8,13 +8,13 @@ var partJson = {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#424242"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#424242"
       },
       "polygon": {
         "nb_sides": 5
@@ -48,7 +48,7 @@ var partJson = {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#424242",
       "opacity": 0.4,
       "width": 1
     },
