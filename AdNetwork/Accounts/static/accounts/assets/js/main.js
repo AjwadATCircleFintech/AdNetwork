@@ -1,7 +1,7 @@
 var partJson = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 85 ,
       "density": {
         "enable": true,
         "value_area": 800
@@ -36,12 +36,12 @@ var partJson = {
       }
     },
     "size": {
-      "value": 3,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
         "speed": 40,
-        "size_min": 0.1,
+        "size_min": 1,
         "sync": false
       }
     },
